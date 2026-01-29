@@ -11,7 +11,10 @@ header {
 
 .container{
   background-color:grey;
-  display:grid;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+
 }
 
 .catagories{
@@ -25,6 +28,10 @@ header {
   background-color: red;
   padding:10px 10px 10px 10px;
   margin: 10px;
+}
+button:hover {
+  background-color: yellow;
+  
 }
 .question-container{
 display:grid;
@@ -51,5 +58,7 @@ grid-template-columns:1fr 1fr;
   border-style:dotted;
 }
 .footer{
-  border:75px;
+  padding:50px;
+  background-color:red;
+  
 }
