@@ -4,9 +4,52 @@ body {
 
 header {
   font-family: sans-serif;
+  background-color: red;
+  border:5px;
+  border-style:dotted;
 }
 
-.teaser {
-  margin: 50px;
-  font-style: italic;
+.container{
+  background-color:grey;
+  display:grid;
+}
+
+.catagories{
+  background-color:green;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr;
+}
+
+.catagories button{
+  background-color: red;
+  padding:10px 10px 10px 10px;
+  margin: 10px;
+}
+.question-container{
+display:grid;
+grid-template-rows:1fr 1fr;
+grid-template-columns:1fr 1fr;
+}
+
+
+.question-container div{
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+.options-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.options-container p{
+  background-color: yellow;
+  padding:5px 15px 5px 15px;
+  border:10px;
+  border-style:dotted;
+}
+.footer{
+  border:75px;
 }
