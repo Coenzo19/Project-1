@@ -1,0 +1,12 @@
+body {
+  text-align: center;
+}
+
+header {
+  font-family: sans-serif;
+}
+
+.teaser {
+  margin: 50px;
+  font-style: italic;
+}
