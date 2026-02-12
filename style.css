@@ -4,61 +4,63 @@ body {
 
 header {
   font-family: sans-serif;
-  background-color: red;
+  background-color: rgb(146, 240, 240);
   border:5px;
-  border-style:dotted;
+  border-style:solid;
+  margin:10px;
 }
 
-.container{
-  background-color:grey;
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-
-}
-
-.catagories{
+.categories{
   background-color:green;
   display:grid;
   grid-template-columns:1fr 1fr 1fr;
   grid-template-rows:1fr 1fr 1fr;
 }
 
-.catagories button{
-  background-color: red;
+.categories button{
+  background-color: rgb(146, 240, 240);
   padding:10px 10px 10px 10px;
   margin: 10px;
 }
+
 button:hover {
   background-color: yellow;
-  
-}
-.question-container{
-display:grid;
-grid-template-rows:1fr 1fr;
-grid-template-columns:1fr 1fr;
 }
 
-
-.question-container div{
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 20px;
+#question-container{
+  background-color: #e6e6e6;
+  margin: 20px;
+  padding: 100px;
+  border:10px;
   font-size: 30px;
+  border-radius:25px;
 }
-.options-container{
+
+#question-title{
+  padding:10px 10px 50px 10px;
+  margin: 100px;
+ display: inline; 
+background-color: #9e3232;
+
+}
+#question{
+  padding:50px 10px 10px 10px;
+  margin: 100px;
+ display: inline; 
+background-color: #ceb8b8;
+}
+.options{
   display:flex;
   flex-direction:row;
   justify-content: space-around;
 }
-.options-container p{
+.options button{
   background-color: yellow;
   padding:5px 15px 5px 15px;
   border:10px;
-  border-style:dotted;
+  border-style:solid;
 }
 .footer{
   padding:50px;
-  background-color:red;
-  
+  background-color: rgb(146, 240, 240);
 }

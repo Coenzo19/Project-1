@@ -12,6 +12,14 @@ let questionIndex = 0;
 // ----------- MILESTONE 3: SHOW/HIDE ANSWER + POPULATE QUESTION FROM JS -------------
 
 function toggleShowAnswer(e) {
+
+  var question=document.getElementById("question");
+  function changeQuestion(){
+    ansBtn.textContent="I will replace the element!";
+  }
+  btn.addEventListener("click",changeQuestion);
+  //q.InnerText='State whose license plate reads "Land of 10,000 Lakes".';
+
   // TODO: This function is our event listener for the "show/hide answer" button.
   //
   // Complete this function so that it checks if the answer is hidden, and if so,
@@ -24,6 +32,12 @@ function toggleShowAnswer(e) {
   // as an onClick listener on the appropriate button.
   //
   // Write your code below
+  var showAns=false;
+  /*if(buuton is clicked){
+    showAns=true;
+    change text to answer.
+  }*/
+
 }
 
 function populateQuestion() {
